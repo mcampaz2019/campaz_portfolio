@@ -17,10 +17,10 @@ C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netc
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\dotnet_portfolio.TagHelpers.input.cache
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\dotnet_portfolio.TagHelpers.output.cache
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\dotnet_portfolio.RazorCoreGenerate.cache
-C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\Razor\Views\Shared\Index.g.cshtml.cs
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\dotnet_portfolio.RazorTargetAssemblyInfo.cache
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\dotnet_portfolio.RazorTargetAssemblyInfo.cs
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\dotnet_portfolio.Views.pdb
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\dotnet_portfolio.dll
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\dotnet_portfolio.pdb
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\dotnet_portfolio.csproj.CopyComplete
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\Razor\Views\Index.g.cshtml.cs
