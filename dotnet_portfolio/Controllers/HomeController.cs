@@ -6,9 +6,9 @@ namespace dotnet_portfolio
     {
         [Route("")]
         [HttpGet]
-        public string Index()
+        public ViewResult Index()
         {
-            return $"This is my index, Website land page!";
+            return View();
         }
 
         [Route("projects")]
