@@ -1,0 +1,14 @@
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\bin\Debug\netcoreapp2.1\dotnet_portfolio.deps.json
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\bin\Debug\netcoreapp2.1\dotnet_portfolio.runtimeconfig.json
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\bin\Debug\netcoreapp2.1\dotnet_portfolio.runtimeconfig.dev.json
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\bin\Debug\netcoreapp2.1\dotnet_portfolio.dll
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\bin\Debug\netcoreapp2.1\dotnet_portfolio.pdb
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\dotnet_portfolio.csprojAssemblyReference.cache
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\dotnet_portfolio.csproj.CoreCompileInputs.cache
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\dotnet_portfolio.RazorAssemblyInfo.cache
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\dotnet_portfolio.RazorAssemblyInfo.cs
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\dotnet_portfolio.AssemblyInfoInputs.cache
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\dotnet_portfolio.AssemblyInfo.cs
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\dotnet_portfolio.RazorTargetAssemblyInfo.cache
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\dotnet_portfolio.dll
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\dotnet_portfolio.pdb
