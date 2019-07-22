@@ -2,8 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-  </PropertyGroup>
-
+  
+<PlatformTarget>AnyCPU</PlatformTarget>
+<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+</PropertyGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
