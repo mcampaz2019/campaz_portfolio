@@ -8,7 +8,7 @@ namespace dotnet_portfolio
         [HttpGet]
         public ViewResult Index()
         {
-            return View();
+            return View("Index2");
         }
 
         [Route("projects")]
