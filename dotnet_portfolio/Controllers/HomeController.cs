@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
 namespace dotnet_portfolio
 {
@@ -13,16 +14,16 @@ namespace dotnet_portfolio
 
         [Route("projects")]
         [HttpGet]
-        public string Projects()
+        public ViewResult Projects()
         {
-            return $"This are my current projects:";
+            return View();
         }
 
         [Route("contact")]
         [HttpGet]
-        public string Contact()
+        public ViewResult Contact()
         {
-            return $"This are my current contact info:";
+            return View();
         }
 
     }
