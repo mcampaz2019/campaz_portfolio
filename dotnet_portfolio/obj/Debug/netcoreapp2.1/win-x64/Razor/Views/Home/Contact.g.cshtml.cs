@@ -48,7 +48,7 @@ namespace AspNetCore
     ");
             EndContext();
             BeginContext(299, 321, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "587cdc8f4c48481a871ac60fb0365546", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3c3be629635942cca070b7f7de7d95ba", async() => {
                 BeginContext(305, 308, true);
                 WriteLiteral(@"
         <meta charset=""utf-8"">
@@ -75,7 +75,7 @@ namespace AspNetCore
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(626, 4483, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b87162ff75b9468f8876a2de0a04e54a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8ec8eb809fe449d8a590494fb5772b9d", async() => {
                 BeginContext(632, 29, true);
                 WriteLiteral("\r\n        <div>\r\n            ");
                 EndContext();

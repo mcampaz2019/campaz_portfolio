@@ -44,6 +44,11 @@
                 web solution and websites, payments integration, 
                 web hosting and domains, and last but not least, consultancy and training...."},  
             };
+            DateTime CurrentTime = DateTime.Now;
+            
+            DateTime date1 = new DateTime(2008, 4, 10);
+            var myDate = CurrentTime.ToString("F", ViewBag.culture);
+            
         }
         </div>
         <div>
@@ -52,6 +57,8 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div class=" row justify-content-start"><div class="col-1"></div><h1>As Current time and date:</h1></div>
+        <div class=" row justify-content-start "><div class="col-1"></div><div class="alert-success col-4">@myDate</div></div>
         <div class=" row justify-content-center"><h1>My Current Projects!</h1></div>
         <div class="row" id="projectBox">
             <div class="col-1"></div>

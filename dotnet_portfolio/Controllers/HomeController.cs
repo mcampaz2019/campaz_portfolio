@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+using System.Globalization;
 
 namespace dotnet_portfolio
 {
@@ -16,6 +17,8 @@ namespace dotnet_portfolio
         [HttpGet]
         public ViewResult Projects()
         {
+            CultureInfo culture = new CultureInfo("en-US");
+            ViewBag.culture = culture; 
             return View();
         }
 
