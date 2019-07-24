@@ -1,3 +1,40 @@
+@{
+    Dictionary<string, string> ListOfMyProjects = new Dictionary<string, string>
+    {
+        {"Dot Net Core", @"Sample ASP.NET Core reference application, powered by Microsoft, 
+        demonstrating a single-process (monolithic) application architecture 
+        and deployment model...."},
+        {"DotNet MVC Framework", @"Using MVC, Entity Framework, and ASP.NET Scaffolding, you can create a web 
+        application that provides an interface to an existing database. 
+        This tutorial series shows you how to automatically generate code 
+        that enables users to display, edit, create, and delete data that resides 
+        in a database table. 
+        The generated code corresponds to the columns in the database table...."},
+        {"ArcGIS Mapping", @"The ArcGIS Runtime SDK for .NET provides numerous code samples to help 
+        get you started. The sample project contains code that illustrates key areas 
+        of ArcGIS Runtime functionality. With a few exceptions, the same set of samples
+            has been provided for each platform - Windows Desktop, 
+        Windows Store apps, and Windows Phone...."},
+        {"Angular - MVC .NET", @"ASP.NET has been around for a long time. When Microsoft introduced ASP.NET MVC, 
+        it changed the way many developers approach their codebase. 
+        There is an excellent separation of concerns, a TDD friendly framework, 
+        and easy integration with JavaScript while maintaining full control 
+        over rendered HTML. On the client side, a lot of .NET developers prefer 
+        Angular because it comes with TypeScript and it’s a much closer language to C# 
+        than plain JavaScript. Angular is an excellent framework 
+        for building enterprise-level, feature rich, applications...."},
+        {"Python Full Stack", @"Various aspect of building a shopping cart application using Django 2.0 web 
+        framework and Python 3.6. I am a software developer at Muva Technologies 
+        where our main focus is to offer services around mobile solutions(Apps), 
+        web solution and websites, payments integration, 
+        web hosting and domains, and last but not least, consultancy and training...."},  
+    };
+    DateTime CurrentTime = DateTime.Now;
+    
+    DateTime date1 = new DateTime(2008, 4, 10);
+    var myDate = CurrentTime.ToString("F", ViewBag.culture);
+    
+}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -13,43 +50,7 @@
     </head>
     <body>
         <div>
-        @{
-            Dictionary<string, string> ListOfMyProjects = new Dictionary<string, string>
-            {
-                {"Dot Net Core", @"Sample ASP.NET Core reference application, powered by Microsoft, 
-                demonstrating a single-process (monolithic) application architecture 
-                and deployment model...."},
-                {"DotNet MVC Framework", @"Using MVC, Entity Framework, and ASP.NET Scaffolding, you can create a web 
-                application that provides an interface to an existing database. 
-                This tutorial series shows you how to automatically generate code 
-                that enables users to display, edit, create, and delete data that resides 
-                in a database table. 
-                The generated code corresponds to the columns in the database table...."},
-                {"ArcGIS Mapping", @"The ArcGIS Runtime SDK for .NET provides numerous code samples to help 
-                get you started. The sample project contains code that illustrates key areas 
-                of ArcGIS Runtime functionality. With a few exceptions, the same set of samples
-                 has been provided for each platform - Windows Desktop, 
-                Windows Store apps, and Windows Phone...."},
-                {"Angular - MVC .NET", @"ASP.NET has been around for a long time. When Microsoft introduced ASP.NET MVC, 
-                it changed the way many developers approach their codebase. 
-                There is an excellent separation of concerns, a TDD friendly framework, 
-                and easy integration with JavaScript while maintaining full control 
-                over rendered HTML. On the client side, a lot of .NET developers prefer 
-                Angular because it comes with TypeScript and it’s a much closer language to C# 
-                than plain JavaScript. Angular is an excellent framework 
-                for building enterprise-level, feature rich, applications...."},
-                {"Python Full Stack", @"Various aspect of building a shopping cart application using Django 2.0 web 
-                framework and Python 3.6. I am a software developer at Muva Technologies 
-                where our main focus is to offer services around mobile solutions(Apps), 
-                web solution and websites, payments integration, 
-                web hosting and domains, and last but not least, consultancy and training...."},  
-            };
-            DateTime CurrentTime = DateTime.Now;
-            
-            DateTime date1 = new DateTime(2008, 4, 10);
-            var myDate = CurrentTime.ToString("F", ViewBag.culture);
-            
-        }
+
         </div>
         <div>
             @Html.Partial("Navigation");
