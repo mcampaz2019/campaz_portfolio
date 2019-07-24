@@ -28,3 +28,4 @@ C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netc
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\Razor\Views\Home\Projects.g.cshtml.cs
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\Razor\Views\Shared\FooterScript.g.cshtml.cs
 C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\Razor\Views\Shared\Navigation.g.cshtml.cs
+C:\DotNetDev\Projects\Portfolio\campaz_portfolio\dotnet_portfolio\obj\Debug\netcoreapp2.1\win-x64\Razor\Views\Home\DojoComment.g.cshtml.cs

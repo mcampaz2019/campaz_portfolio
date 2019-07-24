@@ -1,3 +1,32 @@
+@{
+    var location = new List<string>(){
+        "Berkeley, CA",
+        "Boise, ID",
+        "Chicago, IL",
+        "Dallas, TX",
+        "Los Angeles, CA",
+        "Orange County, CA",
+        "Seattle, WA",
+        "Silicon Valley, CA",
+        "Tulsa, OK",
+        "Tysons Corner, VA",
+        "Online"
+    };
+    var language = new List<string>(){
+        "C",
+        "C++",
+        "C#",
+        "Objective C",
+        "Java",
+        "Basic",
+        "JavaScript",
+        "Python",
+        "Scala",
+        "Go",
+        "Swift",
+        "Ruby"
+    };
+}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -18,84 +47,138 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-                
-        <div class="jumbotron jumbotron-sm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-12">
-                        <h1 class="h1">
-                            Contact me! <small>Feel free to contact me!</small></h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="well well-sm">
-                        <form>
+        <div class="row"><div class="col-1"></div>
+        <div class="card border-dark mb-3 col-10" >                
+            <div class="card-body">        
+                <div class="jumbotron jumbotron-sm">
+                    <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name">
-                                        Name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">
-                                        Email Address</label>
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                        </span>
-                                        <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="subject">
-                                        Subject</label>
-                                    <select id="subject" name="subject" class="form-control" required="required">
-                                        <option value="na" selected="">Choose One:</option>
-                                        <option value="service">General Customer Service</option>
-                                        <option value="suggestions">Suggestions</option>
-                                        <option value="product">Product Support</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name">
-                                        Message</label>
-                                    <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                        placeholder="Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                                    Send Message</button>
+                            <div class="col-sm-10 col-lg-10">
+                                <h1 class="h1">
+                                    Contact me! <small>Feel free to contact me!</small></h1>
                             </div>
                         </div>
+                    </div>
+                </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="well well-sm">
+                            <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">
+                                            Email Address</label>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                            </span>
+                                            <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject">
+                                            Subject</label>
+                                        <select id="subject" name="subject" class="form-control" required="required">
+                                            <option value="na" selected="">Choose One:</option>
+                                            <option value="service">General Customer Service</option>
+                                            <option value="suggestions">Suggestions</option>
+                                            <option value="product">Product Support</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name">
+                                            Message</label>
+                                        <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                            placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                        Send Message</button>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <form>
+                        <legend><span class="glyphicon glyphicon-globe"></span> Mario Campaz</legend>
+                        <address>
+                            <strong>Address</strong><br>
+                            555 Folsom Ave, Suite 555<br>
+                            San Francisco, CA 94555<br>
+                            <abbr title="Phone">
+                                P:</abbr>
+                            (555) 555-5555
+                        </address>
+                        <address>
+                            <strong>Mario Diaz Campaz</strong><br>
+                            <a href="mailto:#">first.last@example.com</a>
+                        </address>
                         </form>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <form>
-                    <legend><span class="glyphicon glyphicon-globe"></span> Mario Campaz</legend>
-                    <address>
-                        <strong>Address</strong><br>
-                        555 Folsom Ave, Suite 555<br>
-                        San Francisco, CA 94555<br>
-                        <abbr title="Phone">
-                            P:</abbr>
-                        (555) 555-5555
-                    </address>
-                    <address>
-                        <strong>Mario Diaz Campaz</strong><br>
-                        <a href="mailto:#">first.last@example.com</a>
-                    </address>
-                    </form>
-                </div>
+            </div>
             </div>
         </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>    
+            <div class="card border-primary mb-4 col-6" >                
+                <div class="card-body">
+                                <!-- Default form contact -->
+                    <form class="text-center border border-light p-5" action="DojoSurvey" method="post">
 
+                        <p class="h4 mb-4">Dojo Survey Index</p>
+
+                        <!-- Name -->
+                        <input type="text" id="defaultContactFormName" class="form-control mb-4" name="name"  required="required" placeholder="Name">
+
+                        <!-- Subject -->
+                        <label>Dojo Location</label>
+                        <select class="browser-default custom-select mb-4" name="location">
+                            @{
+                                for(int i = 0; i < location.Count; i++){
+                                    if(i == 0){
+                                        <option value="@i" selected >@location[i]</option>
+                                    }
+                                    <option value="@i" >@location[i]</option>
+                                }
+                            }
+                        </select>
+
+                        <!-- Favorite Language -->
+                        <label>Favorite Language</label>
+                        <select class="browser-default custom-select mb-4" name="language">
+                            @{
+                                for(int i = 0; i < language.Count; i++){
+                                    if(i == 0){
+                                        <option value="@i" selected >@language[i]</option>
+                                    }
+                                    <option value="@i" >@language[i]</option>
+                                }
+                            }
+                        </select>
+
+                        <!-- Message -->
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0" name="message" id="exampleFormControlTextarea2" rows="5" placeholder="Comment (Optional): "></textarea>
+                        </div>
+
+                        <!-- Send button -->
+                        <button class="btn btn-info btn-block col-2 " type="submit">Send</button>
+
+                    </form>
+                </div>
+            </div>    
+        </div>
         <div>
             @Html.Partial("FooterScript");
         </div>

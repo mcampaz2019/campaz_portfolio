@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System.Globalization;
+using dotnet_portfolio.Models;
 
 namespace dotnet_portfolio
 {
@@ -27,6 +28,28 @@ namespace dotnet_portfolio
         public ViewResult Contact()
         {
             return View();
+        }
+
+        [Route("DojoSurvey")]
+        [HttpPost]        
+        public IActionResult DojoSurvey(string name, string location, string language, string message)
+        {                       
+                Comment model = new Comment(){
+                    Name = name,
+                    Location = location,
+                    Language = language,
+                    Note = message
+                };
+            
+            return View("DojoComment", model);
+        }
+
+        [Route("dojocomment")]
+        [HttpGet]
+        public ViewResult DojoComment(Comment modelObject)
+        {
+            Comment model = modelObject;
+            return View(model);
         }
 
     }
