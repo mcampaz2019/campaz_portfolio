@@ -58,7 +58,7 @@ namespace AspNetCore
         ");
             EndContext();
             BeginContext(519, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70364b8eaf504fb8a991dac4abe6a8ee", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "13a50d81d0ab4d0f90194c986d68ba7b", async() => {
                 BeginContext(549, 43, true);
                 WriteLiteral("Home <span class=\"sr-only\">(current)</span>");
                 EndContext();
@@ -87,7 +87,7 @@ namespace AspNetCore
           ");
             EndContext();
             BeginContext(918, 51, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "851169906a3a4c9c84b233ab4cd9fb11", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16aa7d4731b34434a09862fa2cb5e054", async() => {
                 BeginContext(953, 12, true);
                 WriteLiteral("Dot Net Core");
                 EndContext();
@@ -118,7 +118,7 @@ namespace AspNetCore
         ");
             EndContext();
             BeginContext(1390, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "46aae94bef5a49ddbf5cd3c5cd573296", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50f51447fb0f447f9617e162c933c43f", async() => {
                 BeginContext(1462, 7, true);
                 WriteLiteral("Contact");
                 EndContext();

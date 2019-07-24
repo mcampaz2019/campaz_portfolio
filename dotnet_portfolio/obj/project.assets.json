@@ -16434,7 +16434,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MarioC\\.nuget\\packages\\": {},
+    "C:\\Users\\mcampaz3\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -16443,14 +16443,14 @@
       "projectUniqueName": "C:\\DotNetDev\\Projects\\Portfolio\\campaz_portfolio\\dotnet_portfolio\\dotnet_portfolio.csproj",
       "projectName": "dotnet_portfolio",
       "projectPath": "C:\\DotNetDev\\Projects\\Portfolio\\campaz_portfolio\\dotnet_portfolio\\dotnet_portfolio.csproj",
-      "packagesPath": "C:\\Users\\MarioC\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\mcampaz3\\.nuget\\packages\\",
       "outputPath": "C:\\DotNetDev\\Projects\\Portfolio\\campaz_portfolio\\dotnet_portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\MarioC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mcampaz3\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
