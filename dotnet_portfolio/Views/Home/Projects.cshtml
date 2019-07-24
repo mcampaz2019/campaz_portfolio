@@ -14,43 +14,35 @@
     <body>
         <div>
         @{
-            var ProjectsDescription = new List<string>()
+            Dictionary<string, string> ListOfMyProjects = new Dictionary<string, string>
             {
-                @"Sample ASP.NET Core reference application, powered by Microsoft, 
+                {"Dot Net Core", @"Sample ASP.NET Core reference application, powered by Microsoft, 
                 demonstrating a single-process (monolithic) application architecture 
-                and deployment model....",
-                @"Using MVC, Entity Framework, and ASP.NET Scaffolding, you can create a web 
+                and deployment model...."},
+                {"DotNet MVC Framework", @"Using MVC, Entity Framework, and ASP.NET Scaffolding, you can create a web 
                 application that provides an interface to an existing database. 
                 This tutorial series shows you how to automatically generate code 
                 that enables users to display, edit, create, and delete data that resides 
                 in a database table. 
-                The generated code corresponds to the columns in the database table....",
-                @"The ArcGIS Runtime SDK for .NET provides numerous code samples to help 
+                The generated code corresponds to the columns in the database table...."},
+                {"ArcGIS Mapping", @"The ArcGIS Runtime SDK for .NET provides numerous code samples to help 
                 get you started. The sample project contains code that illustrates key areas 
                 of ArcGIS Runtime functionality. With a few exceptions, the same set of samples
                  has been provided for each platform - Windows Desktop, 
-                Windows Store apps, and Windows Phone....",
-                @"ASP.NET has been around for a long time. When Microsoft introduced ASP.NET MVC, 
+                Windows Store apps, and Windows Phone...."},
+                {"Angular - MVC .NET", @"ASP.NET has been around for a long time. When Microsoft introduced ASP.NET MVC, 
                 it changed the way many developers approach their codebase. 
                 There is an excellent separation of concerns, a TDD friendly framework, 
                 and easy integration with JavaScript while maintaining full control 
                 over rendered HTML. On the client side, a lot of .NET developers prefer 
                 Angular because it comes with TypeScript and it’s a much closer language to C# 
                 than plain JavaScript. Angular is an excellent framework 
-                for building enterprise-level, feature rich, applications....",
-                @"arious aspect of building a shopping cart application using Django 2.0 web 
+                for building enterprise-level, feature rich, applications...."},
+                {"Python Full Stack", @"Various aspect of building a shopping cart application using Django 2.0 web 
                 framework and Python 3.6. I am a software developer at Muva Technologies 
                 where our main focus is to offer services around mobile solutions(Apps), 
                 web solution and websites, payments integration, 
-                web hosting and domains, and last but not least, consultancy and training...."
-            };
-            var ListOfMyProjects = new List<string>
-            {
-                "Dot Net Core",
-                "Dot Net MVC Framework",
-                "ArcGIS Mapping" ,
-                "Angular - MVC .NET",
-                "Python Full Stack"   
+                web hosting and domains, and last but not least, consultancy and training...."},  
             };
         }
         </div>
@@ -60,24 +52,29 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1>My Current Projects!</h1>
-        <div class="row">
+        <div class=" row justify-content-center"><h1>My Current Projects!</h1></div>
+        <div class="row" id="projectBox">
+            <div class="col-1"></div>
             <div class="col-4">
-                <div class="list-group" id="list-tab" role="tablist">
-                    @{foreach(var project in ListOfMyProjects)
-                        {                          
-                            <a class="list-group-item list-group-item-action" id="List-" data-toggle="list" 
-                                href='"list-"+ListOfMyProjects.ToArray()[0]' role="tab" aria-controls="">@project</a>
+                <div class="list-group" id="myList" role="tablist">
+                    @{
+                        foreach(KeyValuePair<string, string> project in ListOfMyProjects)
+                        {     
+                            var name = (project.Key).Split(" ")[0];                 
+                            <a class="list-group-item list-group-item-action" data-toggle="list" 
+                                href="#@name" role="tab" aria-controls="">@project.Key</a>
                         }
                     }
                 
             </div>
             </div>
-            <div class="col-8">
-                <div class="tab-content" id="nav-tabContent">
-                     @{foreach(var projectDescription in ProjectsDescription)
-                        {                            
-                            <div class="tab-pane fade show" id="list" role="tabpanel" aria-labelledby="listID">@projectDescription</div>
+            <div class="col-7">
+                <div class="tab-content alert alert-primary" id="nav-tabContent">
+                     @{
+                        foreach(KeyValuePair<string, string> project in ListOfMyProjects)
+                        {   
+                            var name = (project.Key).Split(" ")[0];
+                            <div class="tab-pane fade show" id="@name" role="tabpanel" aria-labelledby="listID">@project.Value</div>
                         }
                     }            
                 </div>
@@ -86,7 +83,8 @@
         <div>
             @Html.Partial("FooterScript");
         </div>
-        <script>
+        <script>        
+            $('#myList a:first-child').tab('show')
             $('#myList a').on('click', function (e) {
                 e.preventDefault()
                 $(this).tab('show')
