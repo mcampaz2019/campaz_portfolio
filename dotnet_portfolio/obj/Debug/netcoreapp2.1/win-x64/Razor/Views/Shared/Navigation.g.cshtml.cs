@@ -59,7 +59,7 @@ namespace AspNetCore
         ");
             EndContext();
             BeginContext(519, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6924fdca30344f7fade0ec660ab62364", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d7cf6adb8640494ea8c0df9698d3fdf9", async() => {
                 BeginContext(549, 43, true);
                 WriteLiteral("Home <span class=\"sr-only\">(current)</span>");
                 EndContext();
@@ -88,7 +88,7 @@ namespace AspNetCore
           ");
             EndContext();
             BeginContext(918, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "057f8738e7cb483fbf0e06fae01a015d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fda72ada2b994dc7a0c789f0d9968027", async() => {
                 BeginContext(961, 12, true);
                 WriteLiteral("Dot Net Core");
                 EndContext();
@@ -119,7 +119,7 @@ namespace AspNetCore
         ");
             EndContext();
             BeginContext(1398, 97, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c13891d76ae446748cd5fb04a631b3aa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66575f7557db4c1e93f18404e628dea5", async() => {
                 BeginContext(1470, 21, true);
                 WriteLiteral("Contact - Dojo Survey");
                 EndContext();
